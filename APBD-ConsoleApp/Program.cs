@@ -15,12 +15,12 @@ class Program {
         return sum / numbs.Length; 
     }
         static double CalculateMax(int[] numbs) {
-        double ee = 0;
+        double max = 0;
         foreach (int numb in numbs) {
-            if(numb > ee) {
-                ee = numb; 
+            if(numb > max) {
+                max = numb; 
             }
         }
-        return ee;
+        return max;
     }
 }
